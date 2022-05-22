@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Import;
 
 @Slf4j
 @Import(CallLogAspect.class)
-@SpringBootTest(properties = "spring.main.allow-circular-references=true")
+@SpringBootTest
 class CallServiceV3Test {
 
     @Autowired
